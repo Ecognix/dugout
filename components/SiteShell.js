@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 export function Brand() {
-  return <Link href="/" className="brand" aria-label="DUGOUT home"><img src="/logo.png" alt="DUGOUT logo" className="brand-logo" /><span>DUGOUT<small>GUWAHATI</small></span></Link>;
+  return <Link href="/" className="brand" aria-label="DUGOUT home"><img src="/logo.png" alt="DUGOUT" className="brand-logo" /></Link>;
 }
 
 export function SiteHeader() {
